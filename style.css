@@ -1,0 +1,72 @@
+body{
+    position: relative;
+    justify-content: center;
+  
+   
+}
+.a{
+    background-color: black;
+    height: 170px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    place-items: center;
+    border: 2px solid;
+}
+.b{
+    background-color: aliceblue;
+    height: 30px;
+    width: 50px;
+    border-radius: 60%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    animation: 0.5s anim infinite;
+}
+.c{
+    background-color: aliceblue;
+    height: 30px;
+    width: 50px;
+    border-radius: 60%;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    animation: 0.5s anim1 infinite;
+}
+.d{
+    background-color: aliceblue;
+    height: 30px;
+    width: 50px;
+    border-radius: 60%;
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    animation: 0.5s anim2 infinite;
+}
+.e{
+    height: 600px;
+    width: 10px;
+    background-color: black;
+
+
+}
+@keyframes anim {
+    
+    100%{
+        background-color:yellow;
+    }
+}
+@keyframes anim1 {
+    
+    100%{
+        background-color:rgb(255, 47, 0);
+    }
+}
+@keyframes anim2 {
+    
+    100%{
+        background-color:green;
+    }
+}
